@@ -1,25 +1,24 @@
 # Accredian Enterprise Landing Page
 
-A responsive recreation of the Accredian Enterprise landing page built using **Next.js**, **TypeScript**, and **Tailwind CSS**. The project focuses on clean component architecture, responsive design, and modern frontend development practices.
+## Overview
+
+This project is a responsive recreation of the Accredian Enterprise landing page built using Next.js, TypeScript, and Tailwind CSS. The focus of the implementation was to create a clean, reusable, and responsive user interface while maintaining a component-based architecture.
+
+---
 
 ## Live Demo
 
-> Add your Vercel deployment link here after deployment.
+https://<your-render-link>
+
+> Note: The application is deployed on Render.
+
+---
 
 ## GitHub Repository
 
-https://github.com/diya124584/accredian-enterprise-landing-page
+https://github.com/Diya124584/accredian-enterprise-landing-page
 
-## Features
-
-- Responsive design for desktop, tablet, and mobile
-- Modern UI built with Tailwind CSS
-- Reusable React components
-- Interactive FAQ accordion
-- Testimonials carousel
-- Statistics section
-- Smooth navigation
-- Optimized image handling with Next.js
+---
 
 ## Tech Stack
 
@@ -29,13 +28,16 @@ https://github.com/diya124584/accredian-enterprise-landing-page
 - Tailwind CSS
 - Swiper
 - Lucide React
+- React Icons
 
-## Getting Started
+---
+
+## Setup Instructions
 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/diya124584/accredian-enterprise-landing-page.git
+git clone https://github.com/Diya124584/accredian-enterprise-landing-page.git
 ```
 
 ### Install dependencies
@@ -44,7 +46,7 @@ git clone https://github.com/diya124584/accredian-enterprise-landing-page.git
 npm install
 ```
 
-### Run the development server
+### Start the development server
 
 ```bash
 npm run dev
@@ -56,24 +58,49 @@ npm run dev
 npm run build
 ```
 
-## Project Structure
+---
 
-```
-app/
-components/
-public/
-```
+## Approach Taken
 
-## AI Usage
+The application was developed using reusable React components to keep the codebase modular and maintainable. Each section of the landing page was implemented as an independent component, making it easier to manage and extend.
 
-AI tools (ChatGPT) were used to assist with:
-- Responsive layout improvements
-- Component refactoring suggestions
-- Debugging TypeScript and styling issues
-- Improving code organization
+Tailwind CSS was used for styling to enable rapid development and maintain a consistent design system. Responsive layouts were implemented to ensure compatibility across desktop, tablet, and mobile devices.
 
-All code was reviewed, integrated, tested, and validated manually before submission.
+The project structure follows the Next.js App Router architecture, with a focus on clean organization, reusable UI patterns, and readable code.
+
+---
+
+## AI Usage Explanation
+
+AI (ChatGPT) was used as a development assistant during this project. It assisted with:
+
+- Improving responsive layouts
+- Debugging TypeScript and dependency-related issues
+- Suggesting component organization and refactoring
+- Identifying styling improvements
+- Assisting with project documentation
+
+All generated suggestions were reviewed, modified where necessary, integrated manually, and tested before being included in the final implementation.
+
+---
+
+## Improvements with More Time
+
+Given additional development time, the following improvements would be made:
+
+- Improve accessibility using ARIA attributes and enhanced keyboard navigation.
+- Add loading animations and subtle UI micro-interactions.
+- Increase performance through further optimization of assets and rendering.
+- Add automated testing using Jest and React Testing Library.
+- Improve SEO metadata and social sharing previews.
+- Enhance overall UI polish and user experience.
+
+---
 
 ## Author
 
 **Diya Ganju**
+
+B.E. Artificial Intelligence & Machine Learning
+
+PES Modern College of Engineering, Pune
