@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply bg-surface text-ink antialiased;
+    overflow-x: hidden;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  img,
+  svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-semibold tracking-tight text-ink;
+  }
+}
+
+@layer components {
+  /* Shared section spacing */
+  .section {
+    @apply py-section-sm md:py-section;
+  }
+
+  .section-alt {
+    @apply bg-surface-alt;
+  }
+}
