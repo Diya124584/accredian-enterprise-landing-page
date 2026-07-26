@@ -25,7 +25,7 @@ export default function CAT() {
         {/* Framework */}
         <div className="mt-10 flex justify-center">
           <Image
-            src="/images/catv2.svg"
+            src="/images/catV2.svg"
             alt="CAT Framework"
             width={1200}
             height={520}
