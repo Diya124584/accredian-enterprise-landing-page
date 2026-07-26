@@ -8,7 +8,7 @@ This project is a responsive recreation of the Accredian Enterprise landing page
 
 ## Live Demo
 
-https://<your-render-link>
+https://accredian-enterprise-landing-page.onrender.com/
 
 > Note: The application is deployed on Render.
 
